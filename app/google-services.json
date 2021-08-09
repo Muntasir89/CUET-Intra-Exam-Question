@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80243538931",
+    "project_id": "cuet-intra-exam-question-5170a",
+    "storage_bucket": "cuet-intra-exam-question-5170a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80243538931:android:a2891df3b11b2a8f8a3086",
+        "android_client_info": {
+          "package_name": "com.example.cuetintra_examquestion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80243538931-u771mp80e7cf5s0gvvmndgdbeanr1uss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYdYFBvAc7Fl5OLMOLupk1eJEAIjDsf3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80243538931-u771mp80e7cf5s0gvvmndgdbeanr1uss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

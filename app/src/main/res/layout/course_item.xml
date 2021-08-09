@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="7dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:foreground="@drawable/ripple_card">
+    <TextView
+        android:id="@+id/Course_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:letterSpacing="0.02"
+        android:layout_gravity="center"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/georamalight"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        style="@style/ToolBarStyle.Event">
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"/-->
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        tools:openDrawer="start">
+        <RelativeLayout
+            android:id="@+id/content_main"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+        <!--suppress AndroidDomInspection -->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/navigationView"
+            android:background="@color/white"
+            app:menu="@menu/drawer_menu"
+            app:headerLayout="@layout/drawer_header"
+            app:itemTextAppearance="@style/TextStyle"
+            app:itemIconTint="@color/black"
+            app:itemTextColor="@color/black"
+            app:itemBackground="@drawable/drawer_item"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>
